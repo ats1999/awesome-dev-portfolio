@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav ul{
+    float: right;
+}
+
+.nav li {
+  list-style-type: decimal;
+  display: inline;
+  margin-left: 4px;
+}
