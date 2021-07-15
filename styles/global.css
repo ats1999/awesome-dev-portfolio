@@ -4,18 +4,24 @@ body{
 }
 
 .nav{
-    height: 50px;
-    margin: 10px 0px 10px 0px;
+    height: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    position: absolute;
+}
+
+/* margin for navbar! */
+.contents{
+    margin-top: 10px;
 }
 
 .nav a {
   text-decoration: none;
 }
 
-.nav ul{
-    float: right;
+.nav > ul{
+    /* position: absolute;
+    right: 0px; */
 }
 
 .nav li {

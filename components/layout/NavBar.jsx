@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import navItems from "@config/navItems";
 
+// https://brittanychiang.com/
 export default function NavBar({ children }) {
   return (
     <div className="nav">
@@ -14,7 +15,7 @@ export default function NavBar({ children }) {
           </li>
         ))}
       </ul>
-      {children}
+      <div className="contents">{children}</div>
     </div>
   );
 }
