@@ -12,7 +12,7 @@ const data = {
         "Java",
         "C++"
     ],
-    picUrl:"...."
+    picUrl:"https://brittanychiang.com/static/30a645f7db6038f83287d0c6042d3b2b/f9526/me.avif"
 }
 
 

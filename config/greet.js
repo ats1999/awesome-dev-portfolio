@@ -1,3 +1,5 @@
+// markdown supported
+
 const data = {
     name:"Rahul kumar",
     iDo:"I build things for the web",
@@ -8,7 +10,7 @@ const data = {
         name:"Vyorius",
         link:"https://vyorius.com"
     },
-    contactLink:"...."
+    contactLink:"#contact"
 }
 
 

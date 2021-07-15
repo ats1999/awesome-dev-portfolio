@@ -5,6 +5,7 @@ import ShowProjects from '@components/projects/show-projects/ShowProjects';
 import ViewMoreProjects from '@components/projects/view-more-projects/ViewMoreProjects';
 import End from '@components/end/End';
 
+// https://brittanychiang.com
 export default function Home() {
     return <div className="portfolio-default">
         <h1 style={{ color: "red" }}>Portfolio</h1>
