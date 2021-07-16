@@ -1,26 +1,26 @@
-body{
-    margin: 0px;
-    padding: 0px;
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-.nav{
-    height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: absolute;
+.nav {
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
 }
 
 /* margin for navbar! */
-.contents{
-    margin-top: 10px;
+.contents {
+  margin-top: 10px;
 }
 
 .nav a {
   text-decoration: none;
 }
 
-.nav > ul{
-    /* position: absolute;
+.nav > ul {
+  /* position: absolute;
     right: 0px; */
 }
 
@@ -28,4 +28,27 @@ body{
   list-style-type: decimal;
   display: inline;
   margin-left: 4px;
+}
+
+.social-media-icons {
+  list-style-type: none;
+  /* FIXME: Not working */
+  /* position: absolute;
+  right: 10px; */
+}
+
+.social-media-icons li {
+  margin-bottom: 10px;
+}
+
+.contents-row{
+  position: relative;
+}
+
+
+@media only screen and (max-width: 576px) {
+  /* FIXME: it's not working */
+  .social-media-icons {
+    margin-right: 5px;
+  }
 }
